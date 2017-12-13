@@ -1,15 +1,16 @@
 from operations import *
+import var
 
 
 def operation_selection(prompt='choose the operation you would like to perform:'):
-    print(operations)
+    print(var.operations)
     selection = input(prompt)
     print('you have chosen: ', selection)
     print('                ==============================         ')
-    if selection == operations[0]:
+    if selection == var.operations[0]:
         arithmetic_summation()
         pass
-    elif selection == operations[1]:
+    elif selection == var.operations[1]:
         arithmetic_sequence()
         pass
     else:
@@ -18,27 +19,15 @@ def operation_selection(prompt='choose the operation you would like to perform:'
 
 def return_answers(operation):
     print('=======', operation, '=======')
-    if operation == operations[0] or operations[1]:
+    if operation == var.operations[0] or var.operations[1]:
         print('common difference ', d)
-        print('index "n" ', n)
-        print('a sub 1 ', aSub1)
-        print('a sub n ', aSubN) if operation == operations[1] # prints a sub n if arithmetic sequence was chosen
-        print('s sub n ', sSubN) if operation == operations[0] # prints partial sum if arithmetic summation was chosen
+        print('index "n" ', var.n)
+        print('a sub 1 ', var.aSub1)
+        if operation == var.operations[1]:
+            print('a sub n ', var.aSubN)  # prints a sub n if arithmetic sequence was chosen
+            pass
+        if operation == var.operations[0]:
+            print('s sub n ', var.sSubN)  # prints partial sum if arithmetic summation was chosen
+            pass
         pass
-    
-
-# =============all variables===================#
-
-
-def init():
-    global d, ASub1, ASubN, ASubX, ASubY, x, y, sSubN, n, operations
-    d = None
-    aSub1 = None
-    aSubN = None
-    aSubX = None
-    aSubY = None
-    x = None
-    y = None
-    sSubN = None
-    n = None
-    operations = ['arithmetic summation', 'arithmetic sequence', 'geometric summation', 'geometric sequence']
+    pass

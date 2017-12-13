@@ -33,7 +33,7 @@ def arithmetic_sequence():
     d = (input('common difference >>>'))
     n = (input('index of the number you\'re trying to find in the sequence'))
 
-    if not asub1:
+    if not aSub1:
         values = list(a_sub_1_missing())
         aSub1 = find_a_1(values[0], values[1], values[2])
         pass
@@ -45,4 +45,4 @@ def arithmetic_sequence():
         values = list(n_missing())
         n = float(find_n(values[0], values[1], values[2]))
         pass
-    aSubN = find_a_sub_n(float(d), float(asub1), int(n))
+    aSubN = find_a_sub_n(float(d), float(aSub1), int(n))
