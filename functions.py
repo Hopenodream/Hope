@@ -18,21 +18,17 @@ def operation_selection(prompt='choose the operation you would like to perform:'
 
 def return_answers(operation):
     print('=======', operation, '=======')
-    if operation == 'arithmetic sequence':
-        print('a sub n ', ASubN)
+    if operation == operations[0] or operations[1]:
         print('common difference ', d)
         print('index "n" ', n)
         print('a sub 1 ', ASub1)
-        pass
-    elif operation == 'arithmetic summation':
-        print('s sub n ', sSubN)
-        print('index "n" ', n)
-        print('common difference ', d)
-        print('a sub 1 ', ASub1)
+        print('a sub n ', ASubN) if operation == operations[1]
+        print('s sub n ', sSubN) if operation == operations[0]
+            
 
 # =============all variables===================#
 
-
+global d, ASub1, ASubN, ASubX, ASubY, x, y, sSubN, n, operations
 d = 0
 ASub1 = 0
 ASubN = 0
