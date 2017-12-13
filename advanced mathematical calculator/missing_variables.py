@@ -1,4 +1,3 @@
-#test
 def d_missing():
     asubx = float(input('a sub x...'))
     x = int(input('x in a sub x'))
