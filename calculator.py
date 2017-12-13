@@ -1,3 +1,3 @@
-from functions import operation_selection
+from functions import *
 operation_selection()
-
+return_answers()
