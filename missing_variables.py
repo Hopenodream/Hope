@@ -1,10 +1,8 @@
-# testing github
-
 def d_missing():
-    asubx = float(input('a sub x...'))
-    x = int(input('x in a sub x'))
-    asuby = float(input('a sub y'))
-    y = int(input('y in a sub y'))
+    asubx = float(input('a sub x>>>'))
+    x = int(input('x in a sub x>>>'))
+    asuby = float(input('a sub y>>>'))
+    y = int(input('y in a sub y>>>'))
     return asubx, x, asuby, y
 
 
@@ -26,12 +24,14 @@ def a_sub_n_missing():
     aSub1 = float(input('first value of sequence'))
     d = float(input('common difference'))
     n = int(input('order of value in sequence (n)'))
+    return d, aSub1, n
 
 
 def s_sub_n():
     n = int(input('how many numbers of sequence to add up (n)'))
     aSub1 = float(input('value of first number in sequence'))
     aSubN = float(input('value of last value in series being added'))
+    return n, aSub1, aSubN
 
 
 # =============finding variables===============#
@@ -64,5 +64,3 @@ def find_s_sub_n(n, aSub1, aSubN):
 def find_a_sub_n(d, asub1, n):
     asubn = asub1 + d * (n - 1)
     return asubn
-
-
