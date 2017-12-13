@@ -21,7 +21,6 @@ def arithmetic_summation():
         pass
     answer = (n * (ASub1 + ASubN)) / 2
     print('the answer is ', answer)
-    #test
 
 
 pass
