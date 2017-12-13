@@ -18,28 +18,27 @@ def operation_selection(prompt='choose the operation you would like to perform:'
 
 def return_answers(operation):
     print('=======', operation, '=======')
-    if operation == 'arithmetic sequence':
-        print('a sub n ', ASubN)
+    if operation == operations[0] or operations[1]:
         print('common difference ', d)
         print('index "n" ', n)
-        print('a sub 1 ', ASub1)
+        print('a sub 1 ', aSub1)
+        print('a sub n ', aSubN) if operation == operations[1] # prints a sub n if arithmetic sequence was chosen
+        print('s sub n ', sSubN) if operation == operations[0] # prints partial sum if arithmetic summation was chosen
         pass
-    elif operation == 'arithmetic summation':
-        print('s sub n ', sSubN)
-        print('index "n" ', n)
-        print('common difference ', d)
-        print('a sub 1 ', ASub1)
+    
 
 # =============all variables===================#
 
 
-d = 0
-ASub1 = 0
-ASubN = 0
-ASubX = 0
-ASubY = 0
-x = 0
-y = 0
-sSubN = 0
-n = 0
-operations = ['arithmetic summation', 'arithmetic sequence', 'geometric summation', 'geometric sequence']
+def init():
+    global d, ASub1, ASubN, ASubX, ASubY, x, y, sSubN, n, operations
+    d = None
+    aSub1 = None
+    aSubN = None
+    aSubX = None
+    aSubY = None
+    x = None
+    y = None
+    sSubN = None
+    n = None
+    operations = ['arithmetic summation', 'arithmetic sequence', 'geometric summation', 'geometric sequence']
