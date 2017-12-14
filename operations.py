@@ -5,23 +5,23 @@ from functions import *
 def arithmetic_summation():
     print('for the following value inputs, leave blank if the value is unknown')
     # these values should be stored in the global variable
-    aSub1 = (input('whats the first value in the sequence>>>'))
-    aSubN = (input('whats the value of A given a value of n>>>'))
-    n = (input('value of n for A sub n>>>'))
+    var.aSub1 = (input('whats the first value in the sequence>>>'))
+    var.aSubN = (input('whats the value of A given an index of n>>>'))
+    var.n = (input('value of n for A sub n>>>'))
 
-    if not aSub1:
-        values = list(a_sub_1_missing())
-        aSub1 = find_a_1(values[0], values[1], values[2])
+    if not var.aSub1:
+        a_sub_1_missing()
+        find_a_1(float(var.d), float(var.aSubX), int(var.x))
         pass
-    if not aSubN:
-        values = list(a_sub_n_missing())
-        aSubN = find_a_sub_n(values[0], values[1], values[2])
+    if not var.aSubN:
+        a_sub_n_missing()
+        find_a_sub_n(var.d, var.aSub1, var.n)
         pass
-    if not n:
-        values = list(n_missing())
-        n = find_n(values[0], values[1], values[2])
+    if not var.n:
+        n_missing()
+        find_n(int(var.n), float(var.aSub1), float(var.aSubN))
         pass
-    sSubN = (n * (aSub1 + aSubN)) / 2
+    var.sSubN = (int(var.n) * (float(var.aSub1) + float(var.aSubN))) / 2
 
 
 pass
@@ -29,20 +29,20 @@ pass
 
 def arithmetic_sequence():
     print('for the following value inputs, leave blank if the value is unknown')
-    aSub1 = (input('first value in sequence >>>'))
-    d = (input('common difference >>>'))
-    n = (input('index of the number you\'re trying to find in the sequence'))
+    var.aSub1 = (input('first value in sequence >>>'))
+    var.d = (input('common difference >>>'))
+    var.n = (input('index of the number you\'re trying to find in the sequence'))
 
-    if not aSub1:
-        values = list(a_sub_1_missing())
-        aSub1 = find_a_1(values[0], values[1], values[2])
+    if not var.aSub1:
+        a_sub_1_missing()
+        find_a_1(float(var.d), float(var.aSubX), int(var.x))
         pass
-    if not d:
-        values = list(d_missing())
-        d = float(find_common_difference(values[0], values[1], values[2], values[3]))
+    if not var.d:
+        d_missing()
+        find_common_difference(float(var.aSubX), int(var.x), float(var.aSubY), int(var.y))
         pass
-    if not n:
-        values = list(n_missing())
-        n = float(find_n(values[0], values[1], values[2]))
+    if not var.n:
+        n_missing()
+        find_n(int(var.n), float(var.aSub1), float(var.aSubN))
         pass
-    aSubN = find_a_sub_n(float(d), float(aSub1), int(n))
+    find_a_sub_n(float(var.d), float(var.aSub1), int(var.n))
