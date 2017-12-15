@@ -13,5 +13,5 @@ x = None      # index x, correlates with aSubX
 y = None      # index y, correlates with aSUbY
 sSubN = None  # partial sum given index n
 n = None      # index n
-operations = ['arithmetic summation', 'arithmetic sequence', 'geometric summation', 'geometric sequence']
 selection = None
+operations = ['arithmetic summation', 'arithmetic sequence', 'geometric summation', 'geometric sequence']
