@@ -15,8 +15,8 @@ def arithmetic_summation():
         find_a_sub_n()
     if not var.n:
         index_missing()
-        find_index())
-    find s_sub_n)()
+        find_index()
+    find_s_sub_n()
 
 
 pass

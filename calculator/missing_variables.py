@@ -85,7 +85,7 @@ def s_sub_n_missing():
             pass
     if var.selection == var.operations[2] or var.operations[3]:
         if not var.aSub1:
-            var.aSub1 = float(input('first number in sequence>>>))
+            var.aSub1 = float(input('first number in sequence>>>'))
         if not var.r:
             var.r = float(input('common rate>>>')
         if not var.n:
@@ -94,11 +94,11 @@ def s_sub_n_missing():
 
 # =============finding variables===============#
 
-def find_a_sub_1()):
+def find_a_sub_1():
     if var.selection == var.operaions[0] or var.operations[1]:
         var.aSub1 = var.aSubX + var.d * (1 - var.x)
-    if var.selection == var.operations[2], var.operations[3]:
-        var.aSub1 == var.sSubN * ((1 - var.r) / (1 - pow(var.r, var.n))
+    if var.selection == var.operations[2] or var.operations[3]:
+        var.aSub1 == var.sSubN * ((1 - var.r) / (1 - pow(var.r, var.n)))
 
 
 def find_common_change():
@@ -117,9 +117,9 @@ def find_nth_value():
 
 def find_index():
     if var.selection == var.operations[0] or var.operations[1]:
-        var.n = ((asubn - asub1) / commondifference) + 1
+        var.n = ((var.aSubN - var.aSub1) / var.d) + 1
     if var.selection == var.operations[2] or var.operations[3]:
-        var.n = log(1 - ((var.sSubN / var.aSub1) * (1 - var.r)), var.r)
+        var.n = math.log(1 - ((var.sSubN / var.aSub1) * (1 - var.r)), var.r)
 
 def find_s_sub_n():
     if var.selection == var.operations[0] or var.operations[1]:
