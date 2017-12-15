@@ -2,7 +2,8 @@
 Stores all global variables
 """
 
-global d, aSub1, aSubN, aSubX, aSubY, x, y, sSubN, n, operations, selection  # declares all variables global
+global d, aSub1, aSubN, aSubX, aSubY, x, y, sSubN, n, operations, selection, r  # declares all variables global
+r = None      # common rate
 d = None      # common difference
 aSub1 = None  # first number in sequence 
 aSubN = None  # number in sequence given index n
