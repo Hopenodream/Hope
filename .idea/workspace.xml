@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11a2f2c3-6aab-4102-8daf-6829a4622906" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/calculator.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/functions.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/missing_variables.py" />
+    <list default="true" id="11a2f2c3-6aab-4102-8daf-6829a4622906" name="Default" comment="fixed importing issue">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Ken.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Ken.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterPath="$PROJECT_DIR$/readme/CODE_OF_CONDUCT.md" />
-      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/readme/CONTRIBUTING.md" />
-      <change beforePath="$PROJECT_DIR$/ISSUE_TEMPLATE.md" afterPath="$PROJECT_DIR$/readme/ISSUE_TEMPLATE.md" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/readme/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/readme/README.md" />
-      <change beforePath="$PROJECT_DIR$/calculator/calculator.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/calculator/functions.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/calculator/missing_variables.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/calculator/operations.py" afterPath="$PROJECT_DIR$/operations.py" />
-      <change beforePath="$PROJECT_DIR$/calculator/var.py" afterPath="$PROJECT_DIR$/var.py" />
+      <change beforePath="$PROJECT_DIR$/readme/CODE_OF_CONDUCT.md" afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" />
+      <change beforePath="$PROJECT_DIR$/readme/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/CONTRIBUTING.md" />
+      <change beforePath="$PROJECT_DIR$/readme/ISSUE_TEMPLATE.md" afterPath="$PROJECT_DIR$/ISSUE_TEMPLATE.md" />
+      <change beforePath="$PROJECT_DIR$/readme/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/readme/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="operations.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="operations.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/operations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="793">
+              <caret line="97" column="4" lean-forward="false" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -38,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="missing_variables.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="missing_variables.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/missing_variables.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="104" column="15" lean-forward="false" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="15" />
+            <state relative-caret-position="-833">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -53,8 +46,8 @@
       <file leaf-file-name="functions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="1088">
+              <caret line="64" column="74" lean-forward="true" selection-start-line="64" selection-start-column="74" selection-end-line="64" selection-end-column="74" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -75,8 +68,8 @@
       <file leaf-file-name="var.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/var.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            <state relative-caret-position="255">
+              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -107,13 +100,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/var.py" />
         <option value="$PROJECT_DIR$/calculator/var.py" />
         <option value="$PROJECT_DIR$/calculator/operations.py" />
         <option value="$PROJECT_DIR$/calculator/missing_variables.py" />
         <option value="$PROJECT_DIR$/calculator/functions.py" />
         <option value="$PROJECT_DIR$/calculator/calculator.py" />
         <option value="$PROJECT_DIR$/calculator.py" />
+        <option value="$PROJECT_DIR$/var.py" />
         <option value="$PROJECT_DIR$/functions.py" />
         <option value="$PROJECT_DIR$/missing_variables.py" />
         <option value="$PROJECT_DIR$/operations.py" />
@@ -196,8 +189,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\hacking\python\github\Hope\readme" />
       <recent name="D:\hacking\python\github\Hope" />
+      <recent name="D:\hacking\python\github\Hope\readme" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\hacking\python\github\Hope" />
@@ -312,7 +305,21 @@
       <option name="project" value="LOCAL" />
       <updated>1513378795324</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fixed importing issue">
+      <created>1513380555288</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1513380555288</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added a bunch of passes">
+      <created>1513381090416</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1513381090416</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -347,7 +354,9 @@
     <MESSAGE value="pushed original code" />
     <MESSAGE value="deleted xml files" />
     <MESSAGE value="beta 0.2&#10;changelog&#10;-updated all functions to use proper variables&#10;-added float() and int() in places where they needed to be" />
-    <option name="LAST_COMMIT_MESSAGE" value="beta 0.2&#10;changelog&#10;-updated all functions to use proper variables&#10;-added float() and int() in places where they needed to be" />
+    <MESSAGE value="fixed importing issue" />
+    <MESSAGE value="added a bunch of passes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a bunch of passes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -592,6 +601,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/missing_variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-833">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="74" lean-forward="true" selection-start-line="64" selection-start-column="74" selection-end-line="64" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/calculator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -602,38 +631,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/var.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        <state relative-caret-position="255">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/operations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="793">
+          <caret line="97" column="4" lean-forward="false" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/missing_variables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="104" column="15" lean-forward="false" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
