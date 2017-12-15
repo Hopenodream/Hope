@@ -1,4 +1,4 @@
-import var
+from src import var
 import math
 
 v = var

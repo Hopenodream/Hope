@@ -1,5 +1,4 @@
-import missing_variables
-import var
+from src import missing_variables, var
 
 mv = missing_variables
 v = var

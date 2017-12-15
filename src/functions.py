@@ -1,5 +1,4 @@
-import operations
-import var
+from src import operations, var
 
 v = var
 o = operations

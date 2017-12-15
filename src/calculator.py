@@ -1,4 +1,5 @@
-import functions
+from src import functions
+
 f = functions
 
 f.init()
