@@ -1,7 +1,7 @@
 import var
 import math
 
-def d_missing():
+def change_missing():
     if not var.aSubX:
         var.aSubX = float(input('a sub x>>>'))
         pass
@@ -64,7 +64,7 @@ def a_sub_n_missing():
         pass
 
 
-def s_sub_n():
+def s_sub_n_missing():
     if not var.n:
         var.n = int(input('how many numbers of sequence to add up (n)>>>'))
         pass
@@ -82,13 +82,16 @@ def find_a_1(rate, asubx, xval):
     if var.selection == var.operaions[0] or var.operations[1]:
         var.aSub1 = asubx + rate * (1 - xval)
     elif var.selection == var.operations[2], var.operations[3]:
-        var.aSub1 ==
+        var.aSub1 == var.sSubN * ((1 - var.r) / (1 - pow(var.r, var.n))
 
 
-def find_common_difference(asubx, xval, asuby, yval):
-    var.d = (asubx - asuby) / (xval - yval)
-
-
+def find_common_change(asubx, xval, asuby, yval):
+    if var.selection == var.operations[0] or var.operations[1]:
+        var.d = (asubx - asuby) / (xval - yval)  
+    if var.selection == var.operations[2] or var.operations[3]:
+        var.r = pow((var.aSubX / var.aSubY), (1 / var.x - var.y))
+                                  
+                                  
 def find_nth_value(index, commond, asub1):
     var.aSubN = asub1 + (commond * (index - 1))
 
