@@ -17,15 +17,23 @@ def d_missing():
 
 
 def a_sub_1_missing():
-    if not var.d:
-        var.d = float(input('common difference>>>'))
-        pass
-    if not var.aSubX:
-        var.aSubX = float(input('a sub x >>>'))
-        pass
-    if not var.x:
-        var.x = int(input('value of x >>>'))
-        pass
+    if var.selection == var.operations[0] or var.operations[1]:  # if selection is arithmetic
+        if not var.d:
+            var.d = float(input('common difference>>>'))
+            pass
+        if not var.aSubX:
+            var.aSubX = float(input('a sub x >>>'))
+            pass
+        if not var.x:
+            var.x = int(input('value of x >>>'))
+            pass
+    elif var.selction == var.operations[2] or var.operations[3]:  # if selection is geometric
+        if not var.sSubN:
+            var.sSubN = float(input('s sub n>>>'))
+        if not var.r:
+            var.r = float(input('common rate>>>'))
+        if not var.n:
+            var.n = int(input('index "n">>>'))
 
 
 def n_missing():
