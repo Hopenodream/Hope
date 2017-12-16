@@ -17,6 +17,17 @@ def common_change_missing():
     if not v.y:
         v.y = input('y in a sub y>>>')
         pass
+    if v.aSubX:
+        v.aSubX = float(v.aSubX)
+        pass
+    if v.x:
+        v.x = int(v.x)
+        pass
+    if v.aSubY:
+        v.aSubY = float(v.aSubY)
+        pass
+    if v.y:
+        v.y = int(v.y)
     pass
 
 
@@ -46,6 +57,24 @@ def a_sub_1_missing():
         if not v.n:
             v.n = input('index "n">>>')
             pass
+        pass
+    if v.d:
+        v.d = float(v.d)
+        pass
+    if v.aSubX:
+        v.aSubX = float(v.aSubX)
+        pass
+    if v.x:
+        v.x = int(v.x)
+        pass
+    if v.sSubN:
+        v.sSubn = float(v.sSubN)
+        pass
+    if v.r:
+        v.r = float(v.r)
+        pass
+    if v.n:
+        v.n = int(v.n)
         pass
     pass
 
@@ -77,6 +106,21 @@ def index_missing():
             v.aSub1 = input('a sub 1>>>')
             pass
         pass
+    if v.aSubN:
+        v.aSubN = float(v.aSubN)
+        pass
+    if v.d:
+        v.d = float(v.d)
+        pass
+    if v.aSub1:
+        v.aSub1 = float(v.aSub1)
+        pass
+    if v.r:
+        v.r = float(v.r)
+        pass
+    if v.sSubN:
+        v.sSubN = float(v.sSubN)
+        pass
     pass
 
 
@@ -105,6 +149,17 @@ def a_sub_n_missing():
             v.n = input('index (n)>>>')
             pass
         pass
+    if v.aSub1:
+        v.aSub1 = float(v.aSub1)
+        pass
+    if v.d:
+        v.d = float(v.d)
+        pass
+    if v.n:
+        v.n = int(v.n)
+        pass
+    if v.r:
+        v.r = int(v.r)
     pass
 
 
@@ -134,6 +189,18 @@ def s_sub_n_missing():
         if not v.n:
             v.n = input('index>>>')
             pass
+        pass
+    if v.n:
+        v.n = int(v.n)
+        pass
+    if v.aSubN:
+        v.aSubN = float(v.aSubN)
+        pass
+    if v.aSub1:
+        v.aSub1 = float(v.aSub1)
+        pass
+    if v.r:
+        v.r = float(v.r)
         pass
     pass
 
@@ -183,6 +250,9 @@ pass
 
 
 def find_s_sub_n():
+    # v.n = int(v.n)
+    # v.aSub1 = int(v.aSub1)
+    # v.aSubN = int(v.aSubN)
     if v.selection in {v.operations[0], v.operations[1]}:
         v.sSubN = (v.n * (v.aSub1 + v.aSubN)) / 2
         pass
@@ -196,10 +266,14 @@ pass
 
 
 def find_a_sub_n():
+    # v.aSub1 = float(v.aSub1)
+    # v.n = int(v.n)
     if v.selection in {v.operations[0], v.operations[1]}:
+        # v.d = float(v.d)
         v.aSubN = v.aSub1 + v.d * (v.n - 1)
         pass
     if v.selection in {v.operations[2], v.operations[3]}:
+        # v.r = float(v.r)
         v.aSubN = v.aSub1 * pow(v.r, v.n - 1)
         pass
     pass
