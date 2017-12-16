@@ -14,6 +14,7 @@ def arithmetic_summation():
         mv.find_a_sub_1()
         pass
     if not v.aSubN:
+        print('a sub n missing')
         mv.a_sub_n_missing()
         mv.find_a_sub_n()
         pass

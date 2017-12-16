@@ -18,7 +18,7 @@ def operation_selection(prompt='choose the operation you would like to perform:'
     elif v.selection == v.operations[2]:
         o.geometric_summation()
         pass
-    elif v.selection == v.operations [3]:
+    elif v.selection == v.operations[3]:
         o.geometric_sequence()
         pass
     else:
