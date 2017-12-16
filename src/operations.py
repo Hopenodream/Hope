@@ -5,7 +5,6 @@ v = var
 
 
 def arithmetic_summation():
-    print('for the following value inputs, leave blank if the value is unknown')
     # these values should be stored in the global variable
     mv.s_sub_n_missing()
 
@@ -29,7 +28,6 @@ pass
 
 
 def arithmetic_sequence():
-    print('for the following value inputs, leave blank if the value is unknown')
     
     mv.a_sub_n_missing()
     if not v.aSub1:
@@ -44,7 +42,7 @@ def arithmetic_sequence():
         mv.index_missing()
         mv.find_index()
         pass
-    mv.mv.find_a_sub_n()
+    mv.find_a_sub_n()
     pass
 
 
@@ -52,7 +50,6 @@ pass
 
 
 def geometric_sequence():
-    print('for the following value inputs, leave blank if the value is unknown')
     
     mv.a_sub_n_missing()
     if not v.aSub1:
@@ -75,7 +72,6 @@ pass
 
 
 def geometric_summation():
-    print('for the following value inputs, leave blank if the value is unknown')
     
     mv.s_sub_n_missing()
     if not v.aSub1:
