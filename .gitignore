@@ -101,4 +101,10 @@ ENV/
 .mypy_cache/
 find.xml
 ui.lnf.xml
+code.style.schemes.xml
+colors.scheme.xml
 debugger.xml
+filetypes.xml
+Default.xml
+git.xml
+laf.xml
