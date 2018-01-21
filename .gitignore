@@ -109,3 +109,5 @@ Default.xml
 git.xml
 laf.xml
 workspace.xml
+.idea/workspace.xml
+*.xml
