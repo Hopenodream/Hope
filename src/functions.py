@@ -5,7 +5,7 @@ o = operations
 
 
 def operation_selection(prompt='choose the operation you would like to perform:'):
-    print(var.operations)
+    print(v.operations)
     v.selection = input(prompt)
     print('you have chosen: ', v.selection)
     print('          ==============================         ')
